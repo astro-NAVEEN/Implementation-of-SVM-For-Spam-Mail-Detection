@@ -14,6 +14,7 @@ To write a program to implement the SVM For Spam Mail Detection.
 4. Evaluate the model using accuracy and predict whether a new email is Spam or Ham.
 
 ## Program:
+~~~py
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -90,6 +91,7 @@ if prediction[0] == 1:
 else:
 
     print("\nPrediction: Ham Mail")
+~~~
 
 ## Output:
 
